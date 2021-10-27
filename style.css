@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    height: auto;
+    overflow: hidden;
+}
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    perspective: 100px;
+    perspective-origin: 0 0;
+}
+.img{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-position: bottom center;
+}
+#box0 {
+
+    background-image: url("img/parallax0.png");
+    transform: translateZ(-300px) scale(4);
+    transform-origin: 0 0;
+}
+#box1 {
+    background-image: url("img/parallax1.png");
+    transform: translateZ(-270px) scale(3.7);
+    transform-origin: 0 0;
+    z-index: 1;
+}
+#box2 {
+    background-image: url("img/parallax2.png");
+    transform: translateZ(-240px) scale(3.4);
+    transform-origin: 0 0;
+    z-index: 2;
+}
+#box3 {
+    background-image: url("img/parallax3.png");
+    transform: translateZ(-210px) scale(3.1);
+    transform-origin: 0 0;
+    z-index: 3;
+}
+#box4 {
+    background-image: url("img/parallax4.png");
+    transform: translateZ(-180px) scale(2.8);
+    transform-origin: 0 0;
+    z-index: 4;
+}
+#box5 {
+    background-image: url("img/parallax5.png");
+    transform: translateZ(-140px) scale(2.4);
+    transform-origin: 0 0;
+    z-index: 5;
+}
+#box6 {
+    background-image: url("img/parallax6.png");
+    transform: translateZ(-100px) scale(2);
+    transform-origin: 0 0;
+    z-index: 6;
+}
+#box7 {
+    background-image: url("img/parallax7.png");
+    transform: translateZ(-80px) scale(1.8);
+    transform-origin: 0 0;
+    z-index: 7;
+}
+#box8 {
+    background-image: url("img/parallax8.png");
+    transform: translateZ(-40px) scale(1.4);
+    transform-origin: 0 0;
+    z-index: 8;
+}
+.container1{
+    position: absolute;
+    top:100%;
+    width: 100%;
+    height: 2000px;
+    background: #210002;
+}
