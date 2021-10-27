@@ -1,4 +1,4 @@
-# Web-Parallax_Scrolling
+# parallax-scroll
 ## 程式簡介
 ### 簡述
 * 透過 HTML、CSS 實作 Parallax-Scrolling( 視差捲動 ) 的網頁背景
