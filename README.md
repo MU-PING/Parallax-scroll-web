@@ -15,7 +15,8 @@
 * 第一種作法較為常見，但必須搭配 JavaScript；第二種可單純使用 HTML、CSS 完成
 
 ### 範例圖
-![](https://i.imgur.com/N9UqaIM.gif)
+![image](https://user-images.githubusercontent.com/93152909/221433094-c981512f-51e0-43f7-a8fe-399d4c17c98e.gif)
+
 ## Parallax-Scrolling( 視差捲動 )
 * 電腦圖學和網頁設計中使用的技術，原理是在 2D 場景中建立一個深度錯覺
 
